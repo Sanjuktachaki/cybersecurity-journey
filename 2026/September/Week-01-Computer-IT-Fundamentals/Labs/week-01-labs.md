@@ -6,7 +6,7 @@
 
 
 
-To reinforce the computer and IT fundamentals studied during Week 1 through practical work.
+**To reinforce the computer and IT fundamentals studied during Week 1 through practical work.**
 
 
 
@@ -68,7 +68,7 @@ Understanding normal **processes, PIDs, resource usage and services** helps in m
 
 
 
-\## Lab 4 — File Systems \& Folders \& File permissions
+\## Lab 3 — File Systems \& Folders \& File permissions
 
 
 
@@ -101,6 +101,4 @@ Understanding the **file system, file properties and permissions** is important 
 
 
 After doing the practicals, the theory became much clearer to me. I could actually see **how the system starts, how programs run as processes, how resources and services behave, and how files and permissions are organized**. It helped me connect the concepts I studied with what actually happens on a real computer.
-
-
 
