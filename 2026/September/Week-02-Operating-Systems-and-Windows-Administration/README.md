@@ -85,15 +85,20 @@ The Week 2 practical work particularly helped connect Windows administration wit
 ## Repository Contents
 
 
+
 Week-02-Operating-Systems-and-Windows-Administration
-│
-├── README.md
-│
-├── notes
-│   └── week-02-notes.md
-│
-└── labs
-    └── week-02-windows-administration-labs.md
+
+
+ README.md
+
+
+ notes
+    week-02-notes.md
+
+
+ labs
+    week-02-windows-administration-labs.md
+
 
 
 #### Reflection
