@@ -4,7 +4,7 @@
 **Phase:** Phase 1 — Networking  
 **Status:** Completed
 
----
+\---
 
 ## What I worked on
 
@@ -12,20 +12,20 @@ This week I worked on the basic networking concepts that are important for under
 
 The main topics I covered were:
 
-- OSI model
-- TCP/IP model
-- Packets, segments and frames
-- Encapsulation and decapsulation
-- Ports and sockets
-- Listening services
-- TCP and UDP
-- TCP three-way handshake
-- DNS, TCP, TLS and HTTP
-- Packet-flow analysis
+* OSI model
+* TCP/IP model
+* Packets, segments and frames
+* Encapsulation and decapsulation
+* Ports and sockets
+* Listening services
+* TCP and UDP
+* TCP three-way handshake
+* DNS, TCP, TLS and HTTP
+* Packet-flow analysis
 
 The main goal was not only to memorize the models and protocol names, but to connect the concepts with actual network traffic and troubleshooting.
 
----
+\---
 
 ## Practical work
 
@@ -67,17 +67,17 @@ For the final lab, I traced a complete communication flow.
 
 I generated network traffic, captured it and identified:
 
-- DNS activity
-- TCP connection establishment
-- SYN
-- SYN-ACK
-- ACK
-- TLS traffic
-- HTTP-related communication
+* DNS activity
+* TCP connection establishment
+* SYN
+* SYN-ACK
+* ACK
+* TLS traffic
+* HTTP-related communication
 
 I then organised the observations into a complete packet-flow diagram and recorded the security-related observations.
 
----
+\---
 
 ## What I learned
 
@@ -91,7 +91,7 @@ The TCP handshake became much easier to understand after seeing SYN, SYN-ACK and
 
 I also learned why ports and listening services matter when investigating a system. A port by itself does not explain everything, so it is useful to connect the port with the protocol, service and process using it.
 
----
+\---
 
 ## Security relevance
 
@@ -99,34 +99,18 @@ Networking is one of the foundations I need for cybersecurity and SOC work.
 
 A security analyst may need to understand:
 
-- where network traffic came from;
-- where it was going;
-- which protocol was involved;
-- which port was used;
-- whether a connection was established;
-- what DNS activity occurred;
-- what traffic was encrypted;
-- and what information can be extracted from available network evidence.
+* where network traffic came from;
+* where it was going;
+* which protocol was involved;
+* which port was used;
+* whether a connection was established;
+* what DNS activity occurred;
+* what traffic was encrypted;
+* and what information can be extracted from available network evidence.
 
 The packet-flow exercise was particularly useful because it connected several of these concepts together.
 
----
-
-## Evidence
-
-Practical evidence from this week includes:
-
-- Windows networking command results
-- protocol mapping
-- packet capture and inspection
-- listening-service results
-- TCP handshake analysis in Wireshark
-- full DNS/TCP/TLS/HTTP packet-flow analysis
-- packet-flow diagram
-
-Sensitive or unnecessary personal network information is not included in the repository.
-
----
+\---
 
 ## What I can explain now
 
@@ -143,10 +127,11 @@ I should be able to explain:
 9. Why listening services and open ports matter during security investigation.
 10. How to trace a basic browser-to-server communication flow.
 
----
+\---
 
 ## Next step
 
 Next I will continue building my networking foundation and start connecting these concepts with security monitoring and investigation.
 
 The longer-term goal is to use this knowledge when working with logs, PCAPs, SIEM tools and SOC investigations.
+
