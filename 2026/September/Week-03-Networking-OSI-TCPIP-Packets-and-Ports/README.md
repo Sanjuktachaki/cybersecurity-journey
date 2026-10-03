@@ -4,7 +4,7 @@
 **Phase:** Phase 1 — Networking  
 **Status:** Completed
 
-\---
+
 
 ## What I worked on
 
@@ -25,7 +25,7 @@ The main topics I covered were:
 
 The main goal was not only to memorize the models and protocol names, but to connect the concepts with actual network traffic and troubleshooting.
 
-\---
+
 
 ## Practical work
 
@@ -77,7 +77,7 @@ I generated network traffic, captured it and identified:
 
 I then organised the observations into a complete packet-flow diagram and recorded the security-related observations.
 
-\---
+
 
 ## What I learned
 
@@ -91,7 +91,7 @@ The TCP handshake became much easier to understand after seeing SYN, SYN-ACK and
 
 I also learned why ports and listening services matter when investigating a system. A port by itself does not explain everything, so it is useful to connect the port with the protocol, service and process using it.
 
-\---
+
 
 ## Security relevance
 
@@ -110,7 +110,7 @@ A security analyst may need to understand:
 
 The packet-flow exercise was particularly useful because it connected several of these concepts together.
 
-\---
+
 
 ## What I can explain now
 
@@ -127,7 +127,7 @@ I should be able to explain:
 9. Why listening services and open ports matter during security investigation.
 10. How to trace a basic browser-to-server communication flow.
 
-\---
+
 
 ## Next step
 
